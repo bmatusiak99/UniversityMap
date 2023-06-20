@@ -1,0 +1,26 @@
+.mysidenav {
+  position: absolute !important;
+  background-color: blue !important;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+
+.mysidenav input {
+  width: 40px;
+  background-color: #4267B2;
+  border-radius: 5px;
+}
+.mysidenav textarea{
+  background-color: #4267B2;
+  border-radius: 5px;
+}
+
+.mysidenav button{
+  background-color: #0000FF;
+  padding: 0;
+  border: 0;
+}
+
+.page{
+  text-align: center;
+}

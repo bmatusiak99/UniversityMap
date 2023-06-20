@@ -1,0 +1,469 @@
+[
+    {
+        "roomId": 1,
+        "autoCadId": "empty",
+        "collisionType": "Okay",
+        "parentId": null,
+        "box": {
+            "location": {
+                "localX": 0.0,
+                "localY": 0.0,
+                "localZ": 0.0,
+                "globalX": 0.0,
+                "globalY": 0.0,
+                "globalZ": 0.0
+            },
+            "sizeX": 14.0,
+            "sizeY": 12.0,
+            "sizeZ": 4.0,
+            "transformationMatrix": null
+        },
+        "name": "Budynek",
+        "description": "Przykładowy budynek, wymiary w metrach 14x12x4",
+        "presentation": null,
+        "roomType": "BUILDING",
+        "links": null,
+        "beacons": null,
+        "sensors": null,
+        "lastModified": null,
+        "roomOrder": null
+    },
+    {
+        "roomId": 2,
+        "autoCadId": "empty",
+        "collisionType": "Okay",
+        "parentId": 1,
+        "box": {
+            "location": {
+                "localX": 0.0,
+                "localY": 0.0,
+                "localZ": 0.0,
+                "globalX": 0.0,
+                "globalY": 0.0,
+                "globalZ": 0.0
+            },
+            "sizeX": 14.0,
+            "sizeY": 12.0,
+            "sizeZ": 4.0,
+            "transformationMatrix": null
+        },
+        "name": "Skrzydło",
+        "description": "Skrzydło przykładowego budynku, wymiary w metrach 14x12x4",
+        "presentation": null,
+        "roomType": "WING",
+        "links": null,
+        "beacons": null,
+        "sensors": null,
+        "lastModified": null,
+        "roomOrder": null
+    },
+    {
+        "roomId": 3,
+        "autoCadId": "empty",
+        "collisionType": "Okay",
+        "parentId": 2,
+        "box": {
+            "location": {
+                "localX": 0.0,
+                "localY": 0.0,
+                "localZ": 0.0,
+                "globalX": 0.0,
+                "globalY": 0.0,
+                "globalZ": 0.0
+            },
+            "sizeX": 14.0,
+            "sizeY": 12.0,
+            "sizeZ": 4.0,
+            "transformationMatrix": null
+        },
+        "name": "Piętro",
+        "description": "Jedyne piętro w tym przykładzie, wymiary takie same jak budynku, w metrach 14x12x4",
+        "presentation": null,
+        "roomType": "FLOOR",
+        "links": null,
+        "beacons": null,
+        "sensors": null,
+        "lastModified": null,
+        "roomOrder": null
+    },
+    {
+        "roomId": 4,
+        "autoCadId": "empty",
+        "collisionType": "Okay",
+        "parentId": 3,
+        "box": {
+            "location": {
+                "localX": 0.0,
+                "localY": 0.0,
+                "localZ": 0.0,
+                "globalX": 0.0,
+                "globalY": 0.0,
+                "globalZ": 0.0
+            },
+            "sizeX": 5.0,
+            "sizeY": 4.5,
+            "sizeZ": 4.0,
+            "transformationMatrix": null
+        },
+        "name": "Pokój 4",
+        "description": "Pokój nr 4, pierwszy z lewej od dołu, wymiary w metrach 5x4.5x4",
+        "presentation": null,
+        "roomType": "ROOM",
+        "links": [
+            {
+                "linkId": 46,
+                "parentId": 4,
+                "box": {
+                    "location": {
+                        "localX": 5.0,
+                        "localY": 1.0,
+                        "localZ": 0.0,
+                        "globalX": 5.0,
+                        "globalY": 1.0,
+                        "globalZ": 0.0
+                    },
+                    "sizeX": 0.25,
+                    "sizeY": 1.0,
+                    "sizeZ": 2.3,
+                    "transformationMatrix": null
+                },
+                "name": "Drzwi 4_6",
+                "description": "Drzwi z korytarza do pok. 4",
+                "presentation": null,
+                "theOtherParentId": 6,
+                "linkType": "DOOR"
+            },
+            {
+                "linkId": 45,
+                "parentId": 4,
+                "box": {
+                    "location": {
+                        "localX": 3.5,
+                        "localY": 4.5,
+                        "localZ": 0.0,
+                        "globalX": 5.0,
+                        "globalY": 5.5,
+                        "globalZ": 0.0
+                    },
+                    "sizeX": 1.0,
+                    "sizeY": 0.25,
+                    "sizeZ": 2.3,
+                    "transformationMatrix": null
+                },
+                "name": "Drzwi 4_5",
+                "description": "Drzwi z pokoju 4 do pok. 5",
+                "presentation": null,
+                "theOtherParentId": 5,
+                "linkType": "DOOR"
+            }
+        ],
+        "beacons": null,
+        "sensors": null,
+        "lastModified": null,
+        "roomOrder": null
+    },
+    {
+        "roomId": 5,
+        "autoCadId": "empty",
+        "collisionType": "Okay",
+        "parentId": 3,
+        "box": {
+            "location": {
+                "localX": 0.0,
+                "localY": 4.5,
+                "localZ": 0.0,
+                "globalX": 0.0,
+                "globalY": 4.5,
+                "globalZ": 0.0
+            },
+            "sizeX": 5.0,
+            "sizeY": 7.5,
+            "sizeZ": 4.0,
+            "transformationMatrix": null
+        },
+        "name": "Pokój 5",
+        "description": "Pokój nr 5, pierwszy z lewej od góry, wymiary w metrach 5x7.5x4",
+        "presentation": null,
+        "roomType": "ROOM",
+        "links": [
+            {
+                "linkId": 56,
+                "parentId": 5,
+                "box": {
+                    "location": {
+                        "localX": 5.0,
+                        "localY": 1.0,
+                        "localZ": 0.0,
+                        "globalX": 5.0,
+                        "globalY": 5.5,
+                        "globalZ": 0.0
+                    },
+                    "sizeX": 0.25,
+                    "sizeY": 1.0,
+                    "sizeZ": 2.3,
+                    "transformationMatrix": null
+                },
+                "name": "Drzwi 5_6",
+                "description": "Drzwi z korytarza do pok. 5",
+                "presentation": null,
+                "theOtherParentId": 6,
+                "linkType": "DOOR"
+            },
+            {
+                "linkId": 45,
+                "parentId": 4,
+                "box": {
+                    "location": {
+                        "localX": 3.5,
+                        "localY": 4.5,
+                        "localZ": 0.0,
+                        "globalX": 5.0,
+                        "globalY": 5.5,
+                        "globalZ": 0.0
+                    },
+                    "sizeX": 1.0,
+                    "sizeY": 0.25,
+                    "sizeZ": 2.3,
+                    "transformationMatrix": null
+                },
+                "name": "Drzwi 4_5",
+                "description": "Drzwi z pokoju 4 do pok. 5",
+                "presentation": null,
+                "theOtherParentId": 5,
+                "linkType": "DOOR"
+            }
+        ],
+        "beacons": null,
+        "sensors": null,
+        "lastModified": null,
+        "roomOrder": null
+    },
+    {
+        "roomId": 6,
+        "autoCadId": "empty",
+        "collisionType": "Okay",
+        "parentId": 3,
+        "box": {
+            "location": {
+                "localX": 5.0,
+                "localY": 0.0,
+                "localZ": 0.0,
+                "globalX": 5.0,
+                "globalY": 0.0,
+                "globalZ": 0.0
+            },
+            "sizeX": 2.0,
+            "sizeY": 12.0,
+            "sizeZ": 4.0,
+            "transformationMatrix": null
+        },
+        "name": "Korytarz",
+        "description": "Korytarz przez cały budynek, wymiary w metrach 2x12x4",
+        "presentation": null,
+        "roomType": "ROOM",
+        "links": [
+            {
+                "linkId": 46,
+                "parentId": 4,
+                "box": {
+                    "location": {
+                        "localX": 5.0,
+                        "localY": 1.0,
+                        "localZ": 0.0,
+                        "globalX": 5.0,
+                        "globalY": 1.0,
+                        "globalZ": 0.0
+                    },
+                    "sizeX": 0.25,
+                    "sizeY": 1.0,
+                    "sizeZ": 2.3,
+                    "transformationMatrix": null
+                },
+                "name": "Drzwi 4_6",
+                "description": "Drzwi z korytarza do pok. 4",
+                "presentation": null,
+                "theOtherParentId": 6,
+                "linkType": "DOOR"
+            },
+            {
+                "linkId": 56,
+                "parentId": 5,
+                "box": {
+                    "location": {
+                        "localX": 5.0,
+                        "localY": 1.0,
+                        "localZ": 0.0,
+                        "globalX": 5.0,
+                        "globalY": 5.5,
+                        "globalZ": 0.0
+                    },
+                    "sizeX": 0.25,
+                    "sizeY": 1.0,
+                    "sizeZ": 2.3,
+                    "transformationMatrix": null
+                },
+                "name": "Drzwi 5_6",
+                "description": "Drzwi z korytarza do pok. 5",
+                "presentation": null,
+                "theOtherParentId": 6,
+                "linkType": "DOOR"
+            },
+            {
+                "linkId": 67,
+                "parentId": 6,
+                "box": {
+                    "location": {
+                        "localX": 2.0,
+                        "localY": 8.0,
+                        "localZ": 0.0,
+                        "globalX": 7.0,
+                        "globalY": 8.0,
+                        "globalZ": 0.0
+                    },
+                    "sizeX": 0.25,
+                    "sizeY": 1.0,
+                    "sizeZ": 2.3,
+                    "transformationMatrix": null
+                },
+                "name": "Drzwi 6_7",
+                "description": "Drzwi z korytarza do pok. 7",
+                "presentation": null,
+                "theOtherParentId": 7,
+                "linkType": "DOOR"
+            },
+            {
+                "linkId": 68,
+                "parentId": 6,
+                "box": {
+                    "location": {
+                        "localX": 2.0,
+                        "localY": 2.0,
+                        "localZ": 0.0,
+                        "globalX": 7.0,
+                        "globalY": 2.0,
+                        "globalZ": 0.0
+                    },
+                    "sizeX": 0.25,
+                    "sizeY": 1.0,
+                    "sizeZ": 2.3,
+                    "transformationMatrix": null
+                },
+                "name": "Drzwi 6_8",
+                "description": "Drzwi z korytarza do pok. 8",
+                "presentation": null,
+                "theOtherParentId": 8,
+                "linkType": "DOOR"
+            }
+        ],
+        "beacons": null,
+        "sensors": null,
+        "lastModified": null,
+        "roomOrder": null
+    },
+    {
+        "roomId": 7,
+        "autoCadId": "empty",
+        "collisionType": "Okay",
+        "parentId": 3,
+        "box": {
+            "location": {
+                "localX": 7.0,
+                "localY": 6.0,
+                "localZ": 0.0,
+                "globalX": 7.0,
+                "globalY": 6.0,
+                "globalZ": 0.0
+            },
+            "sizeX": 7.0,
+            "sizeY": 6.0,
+            "sizeZ": 4.0,
+            "transformationMatrix": null
+        },
+        "name": "Pokój 7",
+        "description": "Pokój z prawej, na górze, wymiary w metrach 7x6x4",
+        "presentation": null,
+        "roomType": "ROOM",
+        "links": [
+            {
+                "linkId": 67,
+                "parentId": 6,
+                "box": {
+                    "location": {
+                        "localX": 2.0,
+                        "localY": 8.0,
+                        "localZ": 0.0,
+                        "globalX": 7.0,
+                        "globalY": 8.0,
+                        "globalZ": 0.0
+                    },
+                    "sizeX": 0.25,
+                    "sizeY": 1.0,
+                    "sizeZ": 2.3,
+                    "transformationMatrix": null
+                },
+                "name": "Drzwi 6_7",
+                "description": "Drzwi z korytarza do pok. 7",
+                "presentation": null,
+                "theOtherParentId": 7,
+                "linkType": "DOOR"
+            }
+        ],
+        "beacons": null,
+        "sensors": null,
+        "lastModified": null,
+        "roomOrder": null
+    },
+    {
+        "roomId": 8,
+        "autoCadId": "empty",
+        "collisionType": "Okay",
+        "parentId": 3,
+        "box": {
+            "location": {
+                "localX": 7.0,
+                "localY": 0.0,
+                "localZ": 0.0,
+                "globalX": 7.0,
+                "globalY": 0.0,
+                "globalZ": 0.0
+            },
+            "sizeX": 7.0,
+            "sizeY": 6.0,
+            "sizeZ": 4.0,
+            "transformationMatrix": null
+        },
+        "name": "Pokój 8",
+        "description": "Pokój z prawej, na dole, wymiary w metrach 7x6x4",
+        "presentation": null,
+        "roomType": "ROOM",
+        "links": [
+            {
+                "linkId": 68,
+                "parentId": 6,
+                "box": {
+                    "location": {
+                        "localX": 2.0,
+                        "localY": 2.0,
+                        "localZ": 0.0,
+                        "globalX": 7.0,
+                        "globalY": 2.0,
+                        "globalZ": 0.0
+                    },
+                    "sizeX": 0.25,
+                    "sizeY": 1.0,
+                    "sizeZ": 2.3,
+                    "transformationMatrix": null
+                },
+                "name": "Drzwi 6_8",
+                "description": "Drzwi z korytarza do pok. 8",
+                "presentation": null,
+                "theOtherParentId": 8,
+                "linkType": "DOOR"
+            }
+        ],
+        "beacons": null,
+        "sensors": null,
+        "lastModified": null,
+        "roomOrder": null
+    }
+]
